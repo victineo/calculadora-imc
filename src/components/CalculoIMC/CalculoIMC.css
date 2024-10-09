@@ -1,0 +1,9 @@
+.frame-calculadora {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.form-container {
+    gap: 1rem;
+}
