@@ -40,6 +40,7 @@ h1 {
   line-height: 1.1;
 }
 
+/*
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -51,12 +52,35 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+*/
+
+button {
+  min-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  transition: ease-out 0.15s;
 }
+
+button:hover {
+  background-color: #262626;
+  text-decoration: underline;
+  transition: ease-out 0.15s;
+}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+  transition: ease-out 0.15s;
 }
 
 @media (prefers-color-scheme: light) {
