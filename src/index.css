@@ -75,6 +75,7 @@ button:hover {
   background-color: #262626;
   text-decoration: underline;
   transition: ease-out 0.15s;
+  cursor: pointer;
 }
 
 button:active {
